@@ -1,0 +1,31 @@
+.dot-container {
+  background-color: #FAE5FA;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.dot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-radius: 50%;
+  height: 35vh;
+  width: 35vh;
+  background: #FAFAE5;
+  font-size: 4vh;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.progress {
+  position: absolute;
+  border-radius: 50%;
+  height: 36vh;
+  width: 36vh;
+  /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
+}
+
