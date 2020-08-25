@@ -1,0 +1,9 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.MyGallery-root-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  filter: drop-shadow(1px 1px 5px #a3a4e7);
+}
